@@ -1,0 +1,3 @@
+start source code -> npm run start:dev
+
+test -> go test ./...

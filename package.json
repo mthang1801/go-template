@@ -1,0 +1,12 @@
+{
+  "name": "golang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "go test ./...",
+    "start:dev": "nodemon --watch ./**/*.go --signal SIGTERM --exec go run cms/main.go"
+  },
+  "author": "",
+  "license": "ISC"
+}
