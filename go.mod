@@ -1,3 +1,9 @@
-module cms
+module github.com/mthang1801/go-template
 
 go 1.23.0
+
+replace github.com/mthang1801/go-template/utils v0.0.0 => ./utils
+
+require (
+  github.com/mthang1801/go-template/utils v0.0.0
+)

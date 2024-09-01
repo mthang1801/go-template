@@ -1,3 +1,4 @@
+// by convention, we name our package the same as the directory
 package utils
 
 // Reverse reverses a string left to right
@@ -5,9 +6,9 @@ package utils
 // If we don't then we won't be able to access this function outside of the
 // mystrings package
 func Reverse(s string) string {
-	result := ""
-	for _, v := range s {
-		result = string(v) + result
-	}
-	return result
+  result := ""
+  for _, v := range s {
+    result = string(v) + result
+  }
+  return result
 }
