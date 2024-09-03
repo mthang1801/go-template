@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "go test ./...",
-    "start:dev": "nodemon --watch ./**/*.go --signal SIGTERM --exec go run cms/main.go"
+    "start:dev": "nodemon --watch ./**/*.go --signal SIGTERM --exec go run src/main.go"
   },
   "author": "",
   "license": "ISC"

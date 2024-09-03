@@ -1,10 +1,16 @@
 package main
 
-import (
-	"fmt"
-	"github.com/mthang1801/go-template/utils"
+import "fmt"
+
+type EmailStatus int
+
+const (
+	emailBounced EmailStatus = iota
+	emailInvalid
+	emailDelivered
+	emailOpened
 )
 
 func main() {
-	fmt.Println(utils.Reverse("hello world 123"))
+	fmt.Println(emailBounced, emailInvalid, emailOpened)
 }
